@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Content page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Juggling Licence Ineligible
+      </h1>
+
+      <p> You will not be able to recieve a Juggling Licence at this time due to the responses given in this form.</p>
+
+      <p> Contact us further if you disagree with this decision and provide additional and relevant information.</p>
+
+
+      <p>Read more <a href="/url/of/onward/page">about this topic</a>.</p>
+
+    </div>
+  </div>
+
+{% endblock %}
